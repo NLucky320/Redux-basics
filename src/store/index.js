@@ -11,7 +11,7 @@
             state.counter += 1;
         },
         increase: (state, action) => {
-            state.counter = state.counter + action.payload;
+            state.counter +=  action.payload;
         },
         decrement: (state) => {
             state.counter -= 1;
